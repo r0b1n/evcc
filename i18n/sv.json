@@ -130,6 +130,7 @@
       "currency": "Valuta",
       "current": "Ström",
       "currentRange": "Ström",
+      "curtailed": "Inmatning begränsad",
       "detected": "Upptäckt",
       "dimmed": "Nedtonad",
       "enabled": "Aktiverad",
@@ -713,7 +714,7 @@
       "addForecast": "Lägg till prognos",
       "addTariff": "Lägg till tariff",
       "co2": {
-        "description": "CO₂-intensitetsprognos för nätel. För CO₂-optimerad laddning och beräkning av utsläppsbesparingar.",
+        "description": "CO₂-prognos för nätel. För CO₂-optimerad laddning och beräkning av utsläppsbesparingar.",
         "titleAdd": "Lägg till CO₂-prognos",
         "titleEdit": "Ändra CO₂-prognos"
       },
@@ -737,8 +738,49 @@
         "co2": "Lägg till CO₂ prognos",
         "feedIn": "Lägg till tariff för export av el",
         "grid": "Lägg till tariff för import av el",
-        "planner": "Lägg till planläggningsprognos",
+        "planner": "Lägg till planeringsprognos",
         "solar": "Lägg till solprognos"
+      },
+      "planner": {
+        "description": "Avancerad inställning. Behövs vanligtvis inte eftersom dynamiska elpriser eller CO₂-prognoser används automatiskt. Aktiverar en extra datakälla som endast används för laddningsplanering, inte för statistik och priskalkylering.",
+        "titleAdd": "Lägg till planeringsprognos",
+        "titleEdit": "Ändra planläggningsprognos"
+      },
+      "services": "Tjänster",
+      "solar": {
+        "description": "Prognos för solproduktion för din solcellsanläggning. Visas i gränssnittet och kommer framöver att användas för optimeringsalgoritmer.",
+        "titleAdd": "Lägg till solprognos",
+        "titleEdit": "Ändra solprognos"
+      },
+      "template": "Leverantör",
+      "title": "Tariffer & prognoser",
+      "titleChoice": "Vad vill du lägga till?",
+      "type": {
+        "co2": "CO₂ -prognos",
+        "feedIn": "Exportpris",
+        "grid": "Elpris från nätet",
+        "planner": "Planering",
+        "solar": "Sol"
+      },
+      "zones": {
+        "add": "Lägg till zon",
+        "allDays": "Alla dagar",
+        "allMonths": "Alla månader",
+        "allTimes": "Alla tider",
+        "cancel": "Avbryt",
+        "days": "Dagar",
+        "edit": "Ändra",
+        "hours": "Timmar",
+        "months": "Månader",
+        "price": "Pris",
+        "priceRequired": "Pris fordras",
+        "remove": "Ta bort zon",
+        "save": "Spara",
+        "selectAll": "Alla dagar",
+        "timeFrom": "Från",
+        "timeRangeError": "Starttiden måste ligga före sluttiden. För att täcka in midnatt, skapa två separata zoner.",
+        "timeTo": "Till",
+        "weekdays": "Veckodagar"
       }
     },
     "tariffs": {
@@ -1233,6 +1275,7 @@
       "targetChargeWaitForVehicle": "Laddare beredd. Väntar på fordon…",
       "vehicleLimit": "Fordonsgräns",
       "vehicleLimitReached": "Fordonets gräns nådd.",
+      "waitForAuthorization": "Ansluten. Väntar på auktorisering …",
       "waitForVehicle": "Redo. Väntar på fordon…",
       "welcome": "Kort inledande laddning för att kontrollera förbindelsen."
     },
